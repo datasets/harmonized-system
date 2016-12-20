@@ -67,7 +67,7 @@
           }
         ]
       },
-      "path": "headings.csv",
+      "path": "data/headings.csv",
       "format": "CSV",
       "mediatype": "text/csv"
     },
@@ -103,7 +103,7 @@
           }
         ]
       },
-      "path": "harmonized-system.csv",
+      "path": "data/harmonized-system.csv",
       "format": "CSV",
       "mediatype": "text/csv"
     }
