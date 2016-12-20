@@ -1,0 +1,35 @@
+﻿section,chapter,heading,hscode,description
+I,1,01.01,0101.21,Horses: Pure-bred breeding animals
+I,1,01.01,0101.29,Horses: Other
+I,1,01.01,0101.30,Asses
+I,1,01.01,0101.90,Other
+I,1,01.02,0102.21,Cattle: Pure-bred breeding animals
+I,1,01.02,0102.29,Cattle: Other
+I,1,01.02,0102.31,Buffalo: Pure-bred breeding animals
+I,1,01.02,0102.39,Buffalo: Other
+I,1,01.02,0102.90,Other
+I,1,01.03,0103.10,Pure-bred breeding animals
+I,1,01.03,0103.91,Other: Weighing less than 50 kg
+I,1,01.03,0103.92,Other: Weighing 50 kg or more
+I,1,01.04,0104.10,Sheep
+I,1,01.04,0104.20,Goats
+I,1,01.05,0105.11,Weighing not more than 185 g: Fowls of the species Gallus domesticus
+I,1,01.05,0105.12,Weighing not more than 185 g: Turkeys
+I,1,01.05,0105.13,Weighing not more than 185 g: Ducks
+I,1,01.05,0105.14,Weighing not more than 185 g: Geese
+I,1,01.05,0105.15,Weighing not more than 185 g: Guinea fowls
+I,1,01.05,0105.94,Other: Fowls of the species Gallus domesticus
+I,1,01.05,0105.99,Other: Other
+I,1,01.06,0106.11,Mammals: Primates
+I,1,01.06,0106.12,"Mammals: Whales, dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia); seals, sea lions and walruses (mammals of the suborder Pinnipedia)"
+I,1,01.06,0106.13,Mammals: Camels and other camelids (Camelidae)
+I,1,01.06,0106.14,Mammals: Rabbits and hares
+I,1,01.06,0106.19,Mammals: Other
+I,1,01.06,0106.20,Reptiles (including snakes and turtles)
+I,1,01.06,0106.31,Birds: Birds of prey
+I,1,01.06,0106.32,Birds: Psittaciformes (including parrots, parakeets, macaws and cockatoos)
+I,1,01.06,0106.33,Birds: Ostriches; emus (Dromaius novaehollandiae)
+I,1,01.06,0106.39,Birds: Other
+I,1,01.06,0106.41,Insects: Bees
+I,1,01.06,0106.49,Insects: Other
+I,1,01.06,0106.90,Other 

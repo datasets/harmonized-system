@@ -1,0 +1,111 @@
+﻿{
+  "name": "harmonized-system",
+  "title": "Harmonized System",
+  "description": "International classification standard for trade products developed by the World Customs Organization",
+  "homepage": "http://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools.aspx",
+  "version": "2017.0",
+  "license": "ODC-PDDL-1.0",
+  "resources": [
+    {
+      "name": "sections",
+      "title": "Sections",
+      "schema": {
+        "fields": [
+          {
+            "name": "section",
+            "title": "Section",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      },
+      "path": "data/sections.csv",
+      "format": "CSV",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "chapters",
+      "title": "Chapters",
+      "schema": {
+        "fields": [
+          {
+            "name": "chapter",
+            "title": "Chapter",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      },
+      "path": "data/chapters.csv",
+      "format": "CSV",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "headings",
+      "title": "Headings",
+      "schema": {
+        "fields": [
+          {
+            "name": "heading",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      },
+      "path": "headings.csv",
+      "format": "CSV",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "harmonized-system",
+      "title": "Harmonized System",
+      "schema": {
+        "fields": [
+          {
+            "name": "section",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "chapter",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "heading",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "hscode",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      },
+      "path": "harmonized-system.csv",
+      "format": "CSV",
+      "mediatype": "text/csv"
+    }
+  ]
+}
