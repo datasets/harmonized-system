@@ -4,11 +4,28 @@
   "description": "International classification standard for trade products developed by the World Customs Organization",
   "homepage": "http://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools.aspx",
   "version": "2017.0",
-  "license": "ODC-PDDL-1.0",
+  "keywords": ["HS Code", "commodity", "trade", "customs"],
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "sources": [
+    {
+      "name": "UN Comtrade Reference Tables",
+      "path": "https://unstats.un.org/unsd/tradekb/Knowledgebase/50039/UN-Comtrade-Reference-Tables",
+      "title": "UN Comtrade"
+    }
+  ],
   "resources": [
     {
       "name": "sections",
       "title": "Sections",
+      "path": "data/sections.csv",
+      "format": "CSV",
+      "mediatype": "text/csv",
       "schema": {
         "fields": [
           {
@@ -23,57 +40,14 @@
             "format": "default"
           }
         ]
-      },
-      "path": "data/sections.csv",
-      "format": "CSV",
-      "mediatype": "text/csv"
-    },
-    {
-      "name": "chapters",
-      "title": "Chapters",
-      "schema": {
-        "fields": [
-          {
-            "name": "chapter",
-            "title": "Chapter",
-            "type": "integer",
-            "format": "default"
-          },
-          {
-            "name": "name",
-            "type": "string",
-            "format": "default"
-          }
-        ]
-      },
-      "path": "data/chapters.csv",
-      "format": "CSV",
-      "mediatype": "text/csv"
-    },
-    {
-      "name": "headings",
-      "title": "Headings",
-      "schema": {
-        "fields": [
-          {
-            "name": "heading",
-            "type": "number",
-            "format": "default"
-          },
-          {
-            "name": "name",
-            "type": "string",
-            "format": "default"
-          }
-        ]
-      },
-      "path": "data/headings.csv",
-      "format": "CSV",
-      "mediatype": "text/csv"
+      }
     },
     {
       "name": "harmonized-system",
       "title": "Harmonized System",
+      "path": "data/harmonized-system.csv",
+      "format": "CSV",
+      "mediatype": "text/csv",
       "schema": {
         "fields": [
           {
@@ -82,30 +56,27 @@
             "format": "default"
           },
           {
-            "name": "chapter",
-            "type": "integer",
-            "format": "default"
-          },
-          {
-            "name": "heading",
-            "type": "number",
-            "format": "default"
-          },
-          {
             "name": "hscode",
-            "type": "number",
+            "type": "string",
             "format": "default"
           },
           {
             "name": "description",
             "type": "string",
             "format": "default"
-          }
+          },
+          {
+            "name": "parent",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "level",
+            "type": "number",
+            "format": "default"
+          },
         ]
-      },
-      "path": "data/harmonized-system.csv",
-      "format": "CSV",
-      "mediatype": "text/csv"
+      }
     }
   ]
 }
