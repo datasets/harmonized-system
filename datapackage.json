@@ -3,7 +3,7 @@
   "title": "Harmonized System",
   "description": "International classification standard for trade products developed by the World Customs Organization",
   "homepage": "http://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools.aspx",
-  "version": "2017.0",
+  "version": "2022.0",
   "keywords": ["HS Code", "commodity", "trade", "customs"],
   "licenses": [
     {
@@ -14,8 +14,8 @@
   ],
   "sources": [
     {
-      "name": "UN Comtrade Reference Tables",
-      "path": "https://unstats.un.org/unsd/tradekb/Knowledgebase/50039/UN-Comtrade-Reference-Tables",
+      "name": "UN Comtrade data extraction API",
+      "path": "https://comtrade.un.org/data/doc/api/",
       "title": "UN Comtrade"
     }
   ],
@@ -74,7 +74,7 @@
             "name": "level",
             "type": "number",
             "format": "default"
-          },
+          }
         ]
       }
     }
