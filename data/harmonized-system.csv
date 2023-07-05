@@ -2,7 +2,12 @@ section,hscode,description,parent,level
 I,01,Animals; live,TOTAL,2
 I,0101,"Horses, asses, mules and hinnies; live",01,4
 I,010121,"Horses; live, pure-bred breeding animals",0101,6
+I,01012110,"Horses; live, pure-bred breeding animals, of Arab breed",0101,6
+I,01012190,"Horses; live, pure-bred breeding animals, of other than Arab breed",0101,6
 I,010129,"Horses; live, other than pure-bred breeding animals",0101,6
+I,01012910,"Horses; live, other than pure-bred breeding animals,Horses for sport",010129,6
+I,01012920,"Horses; live, other than pure-bred breeding animals,ponies",010129,6
+I,01012990,"Horses; live, other than pure-bred breeding animals,other",010129,6
 I,010130,Asses; live,0101,6
 I,010190,Mules and hinnies; live,0101,6
 I,0102,Bovine animals; live,01,4
@@ -17,9 +22,15 @@ I,010391,"Swine; live, other than pure-bred breeding animals, weighing less than
 I,010392,"Swine; live, other than pure-bred breeding animals, weighing 50kg or more",0103,6
 I,0104,Sheep and goats; live,01,4
 I,010410,Sheep; live,0104,6
+I,01041010,"Sheep; live, pure-bred breeding animals",010410,6
+I,01041090,"Sheep; live, other than pure-bred breeding animals",010410,6
 I,010420,Goats; live,0104,6
+I,01042010,"Goats; live, pure-bred breeding animals",010420,6
+I,01042090,"Goats; live, other than pure-bred breeding animals",010420,6
+
 I,0105,"Poultry; live, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls",01,4
 I,010511,"Poultry; live, fowls of the species Gallus domesticus, weighing not more than 185g",0105,6
+
 I,010512,"Poultry; live, turkeys, weighing not more than 185g",0105,6
 I,010513,"Poultry; live, ducks, weighing not more than 185g",0105,6
 I,010514,"Poultry; live, geese, weighing not more than 185g",0105,6
@@ -30,6 +41,11 @@ I,0106,"Animals; live, n.e.c. in chapter 01",01,4
 I,010611,"Mammals; live, primates",0106,6
 I,010612,"Mammals; live, whales, dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia); seals, sea lions and walruses (mammals of the suborder Pinnipedia)",0106,6
 I,010613,"Mammals; live, camels and other camelids (Camelidae)",0106,6
+I,01061310,"Mammals; live, camels and other camelids (Camelidae), pure-bred breeding",010613,6
+I,01061320,"Mammals; live, camels and other camelids (Camelidae), for domestic competitions and racing
+",010613,6
+I,01061390,"Mammals; live, camels and other camelids (Camelidae), other than pure-bred breeding- and for domestic competitions and racing
+",010613,6
 I,010614,"Mammals; live, rabbits and hares",0106,6
 I,010619,"Mammals; live, other than primates, whales, dolphins, porpoises (mammals of the order Cetacea); manatees, dugongs (mammals of the order Sirenia); seals, sea lions, walruses (mammals of the suborder Pinnipedia), camels, other camelids, rabbits and hares",0106,6
 I,010620,Reptiles; live (including snakes and turtles),0106,6
