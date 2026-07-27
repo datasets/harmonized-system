@@ -78,5 +78,8 @@
         ]
       }
     }
+  ],
+  "has_solutions": [
+    "logistics"
   ]
 }
